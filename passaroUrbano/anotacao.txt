@@ -1,0 +1,4 @@
+======Nesse projeto foi instalado as bibliotecas: Bootstrap(v5.0.2), Jquery e Tether.
+------ https://getbootstrap.com/
+------ https://jquery.com/
+------ http://tether.io/

@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var PessoaDao_1 = require("./PessoaDao");
+var ConcessionariaDao_1 = require("./ConcessionariaDao");
+var Concessionaria_1 = require("./Concessionaria");
+var Pessoa_1 = require("./Pessoa");
+var dao = new ConcessionariaDao_1.ConcessionariaDao();
+var concessionaria = new Concessionaria_1.Concessionaria('', []);
+dao.inserir(concessionaria);
+var dao2 = new PessoaDao_1.PessoaDao();
+var pessoa = new Pessoa_1["default"]('', '');
+dao2.atualizar(pessoa);

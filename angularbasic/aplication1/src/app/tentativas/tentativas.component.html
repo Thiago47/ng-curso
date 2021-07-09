@@ -1,0 +1,7 @@
+<!-- SRC é um Propety binding
+<img [src]="coracaoVazio" alt="coração">
+<img [src]="coracaoCheio" alt="coração">
+<img [src]="coracaoCheio" alt="coração">
+-->
+
+<img *ngFor="let coracao of coracoes"  [src]="coracao.exibeCoracao()" alt="Corações">
